@@ -1,7 +1,6 @@
-# CSS Modül Projesi Giriş
+# CSS Giriş  Projesi 
 
 ## Kullanıcı Arayüzü ve Git
-
 ## Hedefler
 
 - box model'i araştırın ve özelliklerini açıklamaya çalışın 
@@ -10,7 +9,6 @@
 - Responsive site oluşturabilmek için kullanın: (px, em, rem, %, and vw.vh) 
 
 ## Giriş
-
 Bu projede Nevşehir Göreme'de bulunan Peribacaları ile ilgili tek sayfalık bir tanıtım sitesi yapacağız.
 
 Hedeflenen sayfa dizaynı şu dosya içerisinde gösterilmiştir: [dizayn dosyası](/design/desktop.jpg) 
@@ -29,7 +27,7 @@ Aşağıdaki adımları takip edin.:
 
 ### Görev 2: Minimum Uygulanabilir Ürün
 
-Repository'niz hazır olunca verilen dizayn göze alınarak bugün öğrendiğiniz site stillemeye dair pratik yapın. Tamamladığınız sayfanın verdiğimiz dizayn dosyasına benziyor olması gerekmektedir. Minimum yeterliliği sağlamak için aşağıda verilenleri uygulayın:
+Repository'niz hazır olunca verilen dizayn göze alınarak  site stillemeye dair pratik yapın. Tamamladığınız sayfanın verdiğimiz dizayn dosyasına benziyor olması gerekmektedir. Minimum yeterliliği sağlamak için aşağıda verilenleri uygulayın:
 
 - [ ] CSS stylesheet dosyanızı `index.html` dosyasına linkleyin 
 - [ ] Verilen görüntüyü elde etmek için HTML etiketlerinizi semantik(anlamsal) olarak ekleyin
@@ -51,10 +49,6 @@ Repository'niz hazır olunca verilen dizayn göze alınarak bugün öğrendiğin
   - [ ] Footer resmi pozisyonu
 
 **Tasarımınız boyunca statik öğelerden kaçının (pikseller) Mümkün olduğunca responsive öğeler kullanın.**
-
-**Lütfen şunu unatmayın, bugünkü uygulamada flexbox kullanılmayacak. Hedefe inline-block kullanarak ulaşmayı deneyin.**
-
-
 ### Görev 3: Ek Görevler
 
 Aşağıdakileri uygulayın.
