@@ -1,55 +1,116 @@
-<!-- Aşağıdaki içerikleri CSS ile biçimlendirerek etiketleyin. -->
 <!DOCTYPE html>
-<html lang="tr">
-<head>
-<!-- Link your CSS stylesheet -->
-    
-</head>
-<body>
-	
-        Gezinizi Planlayın
-		
-        Bilgi edinin
-		
-        Karşılaştırın
-	
-      <!-- "header_img.jpg" -->
-	  
-      Peri Bacaları Tanıtımı
-	  
-	  Gelin ve Nevşehir'in gizli güzelliklerini keşfedin.
-	 Sürekli açık. Ziyaret için rezervasyona gerek yoktur.
-	 
-	 
-	  
-      Sadece ülkemizin değil, dünyanın en gizemli yerlerinden biri olan Kapadokya’yı gezerken derin bir merak duyduğunuzu biliyoruz. ‘ Peri bacaları nasıl oluştu, insanlar peri bacalarının içlerini ustalıkla nasıl oydu, bu yeraltı şehirlerini kimler yaptı, o kadar insan yerin altında nasıl yaşadı ’ diye binlerce soru geliyor gezginin aklına. 
+<html>
+  <head>
+    <!-- 
+      **** Önce head bölümünde gerekli ayarları yapalım:  ****
+      html-0. karakter setimizi UTF-8 yapalım
+      html-1. CSS dosyanızı linkleyin
+      html-2. Chelsea Market ve Roboto Mono fontlarını google fontlardan linkleyin
+      html-3. Sayfanın başlığını ayarlayın 'Peri Bacaları Tanıtımı'
+    -->
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="index.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poller+One&family=Roboto+Mono&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Poller+One&family=Roboto+Mono&display=swap"
+      rel="stylesheet"
+    />
+    <title>Peri Bacaları Tanıtımı</title>
+  </head>
 
+  <body>
+    <!-- 
+      **** header  ****
+      html-4. header bölümünü ekleyin, class'ı container olsun
+      html-5. anchor tagler kullanarak navigasyon bölümünü ekleyin-
+    -->
+    <header class="container">
+      <nav>
+        <a href="gezinizi_planlayin.html">Gezinizi Planlayın</a>
+        <a href="bilgi_edinin.html">Bilgi Edinin</a>
+        <a href="karsilatirin.html">Karşılaştırın</a>
+      </nav>
+    </header>
 
-     Peri bacaları oluşumunun bilimsel açıklaması olmasına rağmen mistik havasının da şöyle düşündürdüğü biliyoruz; ‘Kapadokya eskiden perilerin cenneti miydi, yoksa doğa bir mucize mi göstermek istedi!’
-     
-	 
-     <!--  "hot-air-balloon.svg" -->
-	
-	
-      Kapadokya denilince akla ilk gelen şeylerden birisi de şüphesiz sıcak hava balonları ile yapılan turlar. Her sabah gün doğumundan önce yüzlerce sıcak hava balonlarından oluşan konvoy ile Kapadokya’nın eşsiz güzellikteki manzaralarını havadan izlemek katılımcılar için gerçekten olağanüstü ve rüya gibi bir deneyim.
-		  
-	  
-     <!--  "atv.svg" -->
-	 
-	 
-      ATV turları, Kapadokya’yı gezmenin heyecan verici, eğlenceli ve farklı bir yoludur. Bölgenin eşsiz ve muhteşem vadileri, dünyanın en iyi ATV turlarından birini deneyimlemenize fırsat verir. ATV turlarının herkes için uygun bir aktivite olduğunu söylemeliyiz.
-	
-	
-	
-      <!-- "footer_img.png" -->
-      
-	
-	
-        Gezinizi Planlayın
-		
-        Bilgi edinin
-		
-        Karşılaştırın
-		
-</body>
+    <!-- html-6. bölüm(section) ekleyin, class'ı main-section ve container olsun-->
+    <!-- html-7. "header_img.jpg" -->
+    <!-- html-8. tagleri gruplayın ve class'ını main-content yapın -->
+    <!-- html-9. uygun bir başlık tag'i kullanın -->
+    <div class="main-content">
+      <section class="main-section container">
+        <img src="./assets/header_img.jpg" alt="header" />
+        <h1>Peri Bacaları Tanıtımı</h1>
+      </section>
+
+      <!-- html-10. 2 cümleyi uygun tag ile ekleyin -->
+      <p>
+        Peri Bacaları Tanıtımı Gelin ve Nevşehir'in gizli güzelliklerini
+        keşfedin.
+      </p>
+      <p>Sürekli açık. Ziyaret için rezervasyona gerek yoktur.</p>
+    </div>
+    <!-- html-11. bölüm ekleyin, class'ı info-section ve container olsun -->
+    <!-- html-12. iki paragraf ekleyin -->
+    <section class="info-section container">
+      <p>
+        Sadece ülkemizin değil, dünyanın en gizemli yerlerinden biri olan
+        Kapadokya'yı gezerken derin bir merak duyduğunuzu biliyoruz. 'Peri
+        bacaları nasıl oluştu, insanlar peri bacalarının içlerini ustalıkla
+        nasıl oydu, bu yeraltı şehirlerini kimler yaptı, o kadar insan yerin
+        altında nasıl yaşadı' diye binlerce soru geliyor gezginin aklına.
+      </p>
+      <p>
+        Peri bacaları oluşumunun bilimsel açıklaması olmasına rağmen mistik
+        havasının da şöyle düşündürdüğü biliyoruz; 'Kapadokya eskiden perilerin
+        cenneti miydi, yoksa doğa bir mucize mi göstermek istedi!'
+      </p>
+    </section>
+
+    <!-- html-13. bölüm ekleyin, class'ı features-section ve container olsun-->
+    <!-- html-14. tagleri gruplayın ve class'ını features-card yapın -->
+    <!-- html-15. "hot-air-balloon.svg" -->
+    <!-- html-16. paragraf ekleyin ve vurgulanan kelimeleri gruplayarak(span) class'ını emphasize yapın -->
+
+    <section class="features-section container">
+      <div class="features-card">
+        <img src="./assets/hot-air-balloon.svg" alt="Hot Air Balloon" />
+        <p>
+          Kapadokya denilince akla ilk gelen şeylerden birisi de <b>sıcak hava
+          balonları ile yapılan turlar. Her sabah gün doğumundan önce yüzlerce
+          sıcak hava balonlarından oluşan konvoy ile Kapadokya'nın eşsiz
+          güzellikteki manzaralarını havadan izlemek katılımcılar için gerçekten
+          olağanüstü ve rüya gibi bir deneyim.
+        </p>
+      </div>
+
+      <!-- html-17. tagleri gruplayın ve class'ını features-card yapın -->
+      <!-- html-18.  "atv.svg" -->
+      <!-- html-19. paragraf ekleyin ve vurgulanan kelimeleri gruplayarak(span) class'ını emphasize yapın -->
+
+      <div class="features-card">
+        <img src="./assets/atv.svg" alt="ATV" />
+        <p>
+          ATV turları, Kapadokya'yı gezmenin heyecan verici, eğlenceli ve farklı
+          bir yoludur. Bölgenin eşsiz ve muhteşem vadileri, dünyanın en iyi ATV
+          turlarından birini deneyimlemenize fırsat verir. ATV turlarının herkes
+          için uygun bir aktivite olduğunu söylemeliyiz.
+        </p>
+      </div>
+    </section>
+
+    <!--html-20. footer ekleyin -->
+    <!-- html-21. "footer_img.png" -->
+    <!-- html-22. anchor tagler kullanarak bölümünü ekleyin-->
+    <footer>
+      <img src="./assets/footer_img.jpg" alt="Footer" />
+      <nav>
+        <a href="gezinizi_planlayin.html">Gezinizi Planlayın</a>
+        <a href="bilgi_edinin.html">Bilgi Edinin</a>
+        <a href="karsilatirin.html">Karşılaştırın</a>
+      </nav>
+    </footer>
+  </body>
 </html>
